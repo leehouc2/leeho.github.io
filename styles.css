@@ -617,6 +617,18 @@ img {
   font-size: 0.92rem;
 }
 
+.not-found-page {
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+  padding-bottom: 92px;
+}
+
+.not-found-card {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
 [data-reveal] {
   opacity: 0;
   transform: translateY(24px);
