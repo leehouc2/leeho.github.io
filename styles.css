@@ -77,8 +77,8 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 18px 26px;
-  margin-top: 18px;
+  padding: 14px 22px;
+  margin-top: 14px;
   border: 1px solid var(--line);
   border-radius: 999px;
   background: rgba(9, 17, 29, 0.7);
@@ -193,14 +193,14 @@ img {
 }
 
 .section {
-  padding: 92px 0 0;
+  padding: 68px 0 0;
 }
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
-  gap: 44px;
-  padding-top: 86px;
+  grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
+  gap: 30px;
+  padding-top: 58px;
   align-items: center;
 }
 
@@ -216,15 +216,15 @@ img {
 .hero h1 {
   margin: 0;
   font-family: "Noto Serif SC", serif;
-  font-size: clamp(3.8rem, 7vw, 6rem);
-  line-height: 0.98;
+  font-size: clamp(3.2rem, 6vw, 5rem);
+  line-height: 1;
 }
 
 .hero-tagline {
-  margin: 26px 0 0;
+  margin: 18px 0 0;
   font-family: "Noto Serif SC", serif;
-  font-size: clamp(1.28rem, 2.2vw, 2rem);
-  line-height: 1.65;
+  font-size: clamp(1.16rem, 1.9vw, 1.72rem);
+  line-height: 1.5;
   max-width: 13.5em;
 }
 
@@ -235,27 +235,27 @@ img {
 .contact-meta,
 .feature-list {
   color: var(--muted);
-  line-height: 1.9;
-  font-size: 1rem;
+  line-height: 1.75;
+  font-size: 0.98rem;
 }
 
 .hero-summary {
   max-width: 42rem;
-  margin: 20px 0 0;
+  margin: 16px 0 0;
 }
 
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
-  margin-top: 28px;
+  margin-top: 22px;
 }
 
 .metric-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 14px;
-  margin-top: 34px;
+  gap: 12px;
+  margin-top: 24px;
 }
 
 .metric-card,
@@ -270,12 +270,12 @@ img {
 }
 
 .metric-card {
-  padding: 20px 18px;
+  padding: 16px 16px;
 }
 
 .metric-card strong {
   display: block;
-  font-size: 1.6rem;
+  font-size: 1.35rem;
   color: var(--warm);
 }
 
@@ -288,7 +288,7 @@ img {
 
 .hero-visual {
   position: relative;
-  min-height: 560px;
+  min-height: 480px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -296,7 +296,7 @@ img {
 
 .portrait-card {
   width: min(100%, 430px);
-  padding: 18px;
+  padding: 14px;
   border-radius: var(--radius-lg);
   border: 1px solid rgba(241, 201, 123, 0.18);
   background:
@@ -320,11 +320,11 @@ img {
 }
 
 .portrait-info {
-  padding: 22px 8px 10px;
+  padding: 16px 8px 8px;
 }
 
 .portrait-role {
-  margin: 0 0 16px;
+  margin: 0 0 12px;
   color: var(--warm);
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -333,7 +333,7 @@ img {
 
 .contact-list {
   display: grid;
-  gap: 14px;
+  gap: 10px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -358,19 +358,20 @@ img {
 
 .contact-list strong,
 .contact-list a {
-  font-size: 1rem;
-  line-height: 1.6;
+  font-size: 0.96rem;
+  line-height: 1.5;
 }
 
 .floating-note {
   position: absolute;
-  padding: 14px 16px;
+  padding: 10px 14px;
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 18px;
   background: rgba(9, 17, 29, 0.76);
   color: var(--text);
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
   backdrop-filter: blur(14px);
+  font-size: 0.9rem;
 }
 
 .note-one {
@@ -384,26 +385,26 @@ img {
 }
 
 .section-heading {
-  max-width: 760px;
+  max-width: 700px;
 }
 
 .section-heading h2 {
   margin: 0;
   font-family: "Noto Serif SC", serif;
-  font-size: clamp(2rem, 3.5vw, 3.2rem);
-  line-height: 1.25;
+  font-size: clamp(1.78rem, 3vw, 2.7rem);
+  line-height: 1.22;
 }
 
 .intro-grid,
 .education-grid {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
-  gap: 22px;
-  margin-top: 28px;
+  gap: 18px;
+  margin-top: 22px;
 }
 
 .card {
-  padding: 28px;
+  padding: 22px;
 }
 
 .card::before {
@@ -423,9 +424,9 @@ img {
 .fact-row {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
-  margin-top: 24px;
-  padding-top: 22px;
+  gap: 12px;
+  margin-top: 18px;
+  padding-top: 18px;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -444,13 +445,13 @@ img {
 .course-grid span {
   display: inline-flex;
   align-items: center;
-  min-height: 40px;
-  padding: 0 14px;
+  min-height: 34px;
+  padding: 0 12px;
   border-radius: 999px;
   border: 1px solid rgba(255, 255, 255, 0.12);
   background: rgba(255, 255, 255, 0.05);
   color: var(--text);
-  font-size: 0.92rem;
+  font-size: 0.88rem;
 }
 
 .focus-card h3,
@@ -461,12 +462,12 @@ img {
 .award-card h3 {
   margin: 0 0 14px;
   font-family: "Noto Serif SC", serif;
-  font-size: 1.5rem;
-  line-height: 1.45;
+  font-size: 1.3rem;
+  line-height: 1.35;
 }
 
 .feature-list {
-  margin: 16px 0 0;
+  margin: 12px 0 0;
   padding-left: 18px;
 }
 
@@ -480,27 +481,27 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 10px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .course-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 22px;
+  gap: 8px;
+  margin-top: 16px;
 }
 
 .language-score {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 14px;
-  margin: 18px 0 16px;
+  gap: 12px;
+  margin: 14px 0 12px;
 }
 
 .language-score div,
 .project-highlights div,
 .award-card {
-  padding: 18px;
+  padding: 14px;
   border-radius: var(--radius-sm);
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(255, 255, 255, 0.04);
@@ -509,18 +510,18 @@ img {
 .language-score strong {
   display: block;
   margin-top: 6px;
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: var(--warm);
 }
 
 .timeline {
   display: grid;
-  gap: 22px;
-  margin-top: 28px;
+  gap: 18px;
+  margin-top: 22px;
 }
 
 .timeline-item {
-  padding-left: 32px;
+  padding-left: 28px;
 }
 
 .timeline-item::after {
@@ -546,14 +547,14 @@ img {
 }
 
 .project-card {
-  margin-top: 28px;
+  margin-top: 22px;
 }
 
 .project-highlights {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-  margin: 24px 0 10px;
+  gap: 12px;
+  margin: 18px 0 8px;
 }
 
 .project-highlights strong {
@@ -566,8 +567,8 @@ img {
 .awards-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
-  margin-top: 28px;
+  gap: 14px;
+  margin-top: 22px;
 }
 
 .award-card p {
@@ -577,13 +578,13 @@ img {
 }
 
 .contact-section {
-  padding-bottom: 88px;
+  padding-bottom: 60px;
 }
 
 .contact-card {
   display: grid;
-  gap: 24px;
-  padding: 34px;
+  gap: 18px;
+  padding: 28px;
   border-radius: var(--radius-lg);
   border: 1px solid rgba(241, 201, 123, 0.22);
   background:
@@ -595,8 +596,8 @@ img {
 .contact-card h2 {
   margin: 4px 0 0;
   font-family: "Noto Serif SC", serif;
-  font-size: clamp(1.8rem, 3vw, 2.8rem);
-  line-height: 1.4;
+  font-size: clamp(1.6rem, 2.4vw, 2.3rem);
+  line-height: 1.32;
 }
 
 .contact-actions {
@@ -621,7 +622,7 @@ img {
   min-height: 100vh;
   display: grid;
   align-items: center;
-  padding-bottom: 92px;
+  padding-bottom: 68px;
 }
 
 .not-found-card {
@@ -650,12 +651,12 @@ img {
   }
 
   .hero {
-    gap: 28px;
+    gap: 22px;
   }
 
   .hero-visual {
     min-height: auto;
-    padding-top: 12px;
+    padding-top: 8px;
   }
 
   .project-highlights,
@@ -686,11 +687,11 @@ img {
   }
 
   .section {
-    padding-top: 72px;
+    padding-top: 56px;
   }
 
   .hero {
-    padding-top: 72px;
+    padding-top: 52px;
   }
 
   .metric-grid,
@@ -703,7 +704,7 @@ img {
 
   .floating-note {
     position: static;
-    margin-top: 12px;
+    margin-top: 10px;
   }
 
   .hero-visual {
@@ -728,7 +729,7 @@ img {
 
   .contact-card,
   .card {
-    padding: 24px;
+    padding: 20px;
   }
 
   .header-cta {
