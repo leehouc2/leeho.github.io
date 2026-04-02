@@ -204,6 +204,24 @@ img {
   align-items: center;
 }
 
+.hero-compact .hero-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-compact .eyebrow {
+  margin-bottom: 10px;
+}
+
+.hero-compact .hero-actions {
+  margin-top: 16px;
+}
+
+.hero-compact .metric-grid {
+  margin-top: 18px;
+}
+
 .eyebrow,
 .section-kicker {
   margin: 0 0 14px;
